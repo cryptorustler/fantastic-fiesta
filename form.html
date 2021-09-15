@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Forms on Playin'</title>
+            <link href='style.css' rel='stylesheet'>
+        </head>
+        <body>
+            <h1 class='form'>some phresh forms are incoming. watch out legend, theyre pretty phresh (aforementioned)</h1>
+
+            <form action="thanks.html">
+                <!--first name-->
+                <label for='fname'>First name:<br></label>
+                <input type='text' id='fname' name='fname' placeholder='Johnathy' required pattern='[a-zA-Z]{5,6}' title='mid-length name (i.e. 5-6chars)'>
+                <p>bruh did u see that placeholder damnn</p>
+                <!--last name jokes-->
+                <label for='lastname'>Last name (there's only 3 last names that exist don't lie):<br></label>
+                <input type='list' id='lname' name='lname' list='lnamee' required>
+                    <datalist id='lnamee'>
+                        <option value='Cousins'>Cousins</option>
+                        <option value='Smith'>Smith</option>
+                        <option value='Jacobson'>Jacobson</option>
+                    </datalist>
+                        <br><br>
+                <!--last name fr-->
+                <label for='lnamefr'>Okay no seriously now, pick one.<br></label>    
+                <select id='lnamefr' name='lname2'> 
+                    <option value='Cousins'>Cousins</option>
+                    <option value='Smith'>Smith</option>
+                    <option value='Jacobson'>Jacobson</option>
+                </select>
+                <!--submit-->
+                <br><br><br>
+                <a href='./thanks.html'>
+                <input type='submit' value='submit it !!!'>
+                </a>
+            </form>
+        </body>
+    </html>
