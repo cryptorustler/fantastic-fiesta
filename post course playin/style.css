@@ -1,0 +1,47 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+h1 {
+    color: lightseagreen;
+    background-color: salmon;
+
+}
+
+h1:hover, .big:hover {
+    color: lightgreen;
+}
+
+*:hover {
+    color: navy;
+}
+
+.big {
+    font-size: 30px;
+    color: black;
+}
+
+img:hover {
+    border: 3px solid red;
+}
+
+form {
+    font-size: 25px;
+}
+
+input, datalist, select {
+    font-size: 30px;
+}
+
+h1.form {
+    background-color: white;
+    border: 2px solid blue;
+}
+
+p {
+    font-family: cursive;
+    font-size: 20px;
+    color: lightskyblue;
+    background-color: darkorange;
+}
